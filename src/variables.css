@@ -1,0 +1,166 @@
+:root {  
+     /* COLORS */
+    --colorBrandBlueBlue100: #bde1f5ff;
+    --colorBrandBlueBlue200: #90cef0ff;
+    --colorBrandBlueBlue300: #65b9e6ff;
+    --colorBrandBlueBlue400: #238dc8ff;
+    --colorBrandBlueBlue50: #ebf8ffff;
+    --colorBrandBlueBlue500: #1d75a5ff;
+    --colorBrandBlueBlue600: #0d567dff;
+    --colorBrandBlueBlue700: #003857ff;
+  
+    --colorBrandGreenGreen100: #d5eee4ff;
+    --colorBrandGreenGreen200: #a7eed1ff;
+    --colorBrandGreenGreen300: #72dbafff;
+    --colorBrandGreenGreen400: #2ca070ff;
+    --colorBrandGreenGreen50: #ebfff7ff;
+    --colorBrandGreenGreen500: #1c7d55ff;
+    --colorBrandGreenGreen600: #005c36ff;
+    --colorBrandGreenGreen700: #004f2eff;
+  
+    --colorBrandLimeLime100: #e6eed5ff;
+    --colorBrandLimeLime200: #d8eea7ff;
+    --colorBrandLimeLime300: #badb72ff;
+    --colorBrandLimeLime400: #80ab22ff;
+    --colorBrandLimeLime50: #f9ffebff;
+    --colorBrandLimeLime500: #6a9116ff;
+    --colorBrandLimeLime600: #507306ff;
+    --colorBrandLimeLime700: #395400ff;
+  
+    --colorBrandMagentaMagenta100: #f0cee7ff;
+    --colorBrandMagentaMagenta200: #e69cd2ff;
+    --colorBrandMagentaMagenta300: #c267a9ff;
+    --colorBrandMagentaMagenta400: #94477fff;
+    --colorBrandMagentaMagenta50: #ffedfaff;
+    --colorBrandMagentaMagenta500: #723762ff;
+    --colorBrandMagentaMagenta600: #57254aff;
+    --colorBrandMagentaMagenta700: #421937ff;
+  
+    --colorBrandOpacityBlue700Opacity008: #00385714;
+    --colorBrandOpacityBlue700Opacity012: #0038571e;
+    --colorBrandOpacityBlue700Opacity016: #00385728;
+  
+    --colorBrandOpacityGreen700Opacity008: #004f2e14;
+    --colorBrandOpacityGreen700Opacity012: #004f2e1e;
+    --colorBrandOpacityGreen700Opacity016: #004f2e28;
+  
+    --colorBrandOpacityLime700Opacity008: #39540014;
+    --colorBrandOpacityLime700Opacity012: #3954001e;
+    --colorBrandOpacityLime700Opacity016: #39540028;
+  
+    --colorBrandOpacityMagenta700Opacity008: #42193714;
+    --colorBrandOpacityMagenta700Opacity012: #4219371e;
+    --colorBrandOpacityMagenta700Opacity016: #42193728;
+  
+    --colorBrandOpacityOrange700Opacity008: #4d200014;
+    --colorBrandOpacityOrange700Opacity012: #4d20001e;
+    --colorBrandOpacityOrange700Opacity016: #4d200028;
+  
+    --colorBrandOpacityRed700Opacity008: #3d010014;
+    --colorBrandOpacityRed700Opacity012: #3d01001e;
+    --colorBrandOpacityRed700Opacity016: #3d010028;
+  
+    --colorBrandOpacityTeal700Opacity008: #004d4c14;
+    --colorBrandOpacityTeal700Opacity012: #004d4c1e;
+    --colorBrandOpacityTeal700Opacity016: #004d4c28;
+  
+    --colorBrandOpacityViolet700Opacity008: #28154514;
+    --colorBrandOpacityViolet700Opacity012: #2815451e;
+    --colorBrandOpacityViolet700Opacity016: #28154528;
+  
+    --colorBrandOpacityYellow700Opacity008: #71510014;
+    --colorBrandOpacityYellow700Opacity012: #7151001e;
+    --colorBrandOpacityYellow700Opacity016: #71510028;
+  
+    --colorBrandOrangeOrange100: #ffdac2ff;
+    --colorBrandOrangeOrange200: #ffc9a3ff;
+    --colorBrandOrangeOrange300: #ffac70ff;
+    --colorBrandOrangeOrange400: #fe791bff;
+    --colorBrandOrangeOrange50: #fff1e5ff;
+    --colorBrandOrangeOrange500: #b74e02ff;
+    --colorBrandOrangeOrange600: #8a3a00ff;
+    --colorBrandOrangeOrange700: #4d2000ff;
+  
+    --colorBrandRedRed100: #f7d4d4ff;
+    --colorBrandRedRed200: #fa9a99ff;
+    --colorBrandRedRed300: #ed615eff;
+    --colorBrandRedRed400: #d92626ff;
+    --colorBrandRedRed50: #ffebebff;
+    --colorBrandRedRed500: #a61e1cff;
+    --colorBrandRedRed600: #701210ff;
+    --colorBrandRedRed700: #3d0100ff;
+  
+    --colorBrandTealTeal100: #bdf5f4ff;
+    --colorBrandTealTeal200: #90f0eeff;
+    --colorBrandTealTeal300: #65e6e4ff;
+    --colorBrandTealTeal400: #33d1ceff;
+    --colorBrandTealTeal50: #ebffffff;
+    --colorBrandTealTeal500: #28a19fff;
+    --colorBrandTealTeal600: #09716fff;
+    --colorBrandTealTeal700: #004d4cff;
+  
+    --colorBrandVioletViolet100: #dccef0ff;
+    --colorBrandVioletViolet200: #c6aeeaff;
+    --colorBrandVioletViolet300: #9f80ccff;
+    --colorBrandVioletViolet400: #664794ff;
+    --colorBrandVioletViolet50: #f4edffff;
+    --colorBrandVioletViolet500: #4f3772ff;
+    --colorBrandVioletViolet600: #392557ff;
+    --colorBrandVioletViolet700: #281545ff;
+  
+    --colorBrandYellowYellow100: #ffeec2ff;
+    --colorBrandYellowYellow200: #ffe5a3ff;
+    --colorBrandYellowYellow300: #ffd770ff;
+    --colorBrandYellowYellow400: #fec42dff;
+    --colorBrandYellowYellow50: #fff8e8ff;
+    --colorBrandYellowYellow500: #d09500ff;
+    --colorBrandYellowYellow600: #946a00ff;
+    --colorBrandYellowYellow700: #715100ff;
+  
+    --colorNeutralNeutral100: #edf0f5ff;
+    --colorNeutralNeutral1000: #11141aff;
+    --colorNeutralNeutral200: #e4e8f0ff;
+    --colorNeutralNeutral300: #d5dae5ff;
+    --colorNeutralNeutral400: #c8cedbff;
+    --colorNeutralNeutral50: #f7f8faff;
+    --colorNeutralNeutral500: #9199a8ff;
+    --colorNeutralNeutral600: #515866ff;
+    --colorNeutralNeutral700: #3b424eff;
+    --colorNeutralNeutral800: #262b36ff;
+    --colorNeutralNeutral900: #1b1f28ff;
+  
+    --colorNeutralOpacitySpecialDarkOpacity008: #bfceed14;
+    --colorNeutralOpacitySpecialDarkOpacity012: #bfceed1e;
+    --colorNeutralOpacitySpecialDarkOpacity016: #bfceed28;
+  
+    --colorNeutralOpacitySpecialLightOpacity008: #525f7a14;
+    --colorNeutralOpacitySpecialLightOpacity012: #525f7a1e;
+    --colorNeutralOpacitySpecialLightOpacity016: #525f7a28;
+  
+    --colorNeutralOpacityWhiteOpacity008: #ffffff14;
+    --colorNeutralOpacityWhiteOpacity012: #ffffff1e;
+    --colorNeutralOpacityWhiteOpacity016: #ffffff28;
+  
+    --colorNeutralSpecialSpecialDark: #bfceedff;
+    --colorNeutralSpecialSpecialLight: #525f7aff;
+    --colorNeutralWhite: #ffffffff;
+
+
+    /* SHADOWS */
+    --swissBankShadowSmall: 0px 4px 16px 0px #00000014;
+    --swissBankShadowContentBlocks:  0px 4px 8px 0px #0000000A;
+
+
+     /* SPACING */
+    --iosSafeTopArea: calc(16px + env(safe-area-inset-top));
+
+
+     /* FONT-WEIGHTS */
+    --fontBold700: 700;
+    --fontSemiBold600: 600;
+    --fontMedium500: 500;
+    --fontRegular400: 400;
+    --fontLight300: 300;
+    --fontExtraLight200: 200;
+    --fontThin100: 100;
+  }
