@@ -2,6 +2,7 @@ import { Box, Typography } from "@mui/material";
 
 export const TransactionSection = ({
   value,
+  //@ts-ignore
   getItemSymbol,
 }: {
   value: ITransactionVO;

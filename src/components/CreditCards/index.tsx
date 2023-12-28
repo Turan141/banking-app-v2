@@ -4,11 +4,12 @@ import {  CardItem } from "./CardItem"
 
 const CreditCards = () => {
 	const [accountHomeData] = REQ_ACCOUNT_GET_HOME.useRequest()
+	//@ts-ignore
 	const cardsList = accountHomeData?.["prepaid-cards"]?.cards
 
 	return (
 		<Box>
-			{cardsList?.map((card) => (
+			{cardsList?.map((card: any) => (
 				<CardItem cardDetails={card} />
 			))}
 		</Box>

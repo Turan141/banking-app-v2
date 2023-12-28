@@ -7,6 +7,7 @@ import { S_PRESENT_SCREEN_ON_MAIN, Screens } from "../../Presenter"
 const TotalBalance = () => {
 	const [accountHomeData] = REQ_ACCOUNT_GET_HOME.useRequest()
 	const [currencySymbols] = REQ_CURRENCY_SYMBOLS.useRequest()
+	//@ts-ignore
 	const [value, currency] = accountHomeData?.aic?.accounts?.split(" ") || []
 
 	const totalBalance = `

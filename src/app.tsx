@@ -1,6 +1,5 @@
 import { Box, CssBaseline } from "@mui/material"
 import { ThemeProvider } from '@mui/system';
-import { SidePanel } from "./components/SidePanel"
 import { useEffect, useState } from 'preact/hooks';
 import { GD } from './GD';
 import Signal from "badmfck-signal";

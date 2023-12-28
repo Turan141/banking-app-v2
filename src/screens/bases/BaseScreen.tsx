@@ -57,6 +57,7 @@ export const BaseScreen = ({ children, bottom, head, sx }: IScreenParams) => {
       <BottomNavigation
         showLabels
         // value={value}
+        //@ts-ignore
         onChange={(event, newValue) => {}}
         sx={{
           width: "100%",
